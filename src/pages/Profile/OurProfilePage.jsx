@@ -5,7 +5,7 @@ import SocialNft from '../../artifacts/contracts/MyNFT.sol/SocialNFT.json'
 import { ethers } from 'ethers'
 
 import { useState, useEffect } from 'react'
-import MintNFTMapped from './MintNFTMapped';
+import MintNFTMapped from './MintNFTMapped.jsx';
 
 
 function OurProfilePage ({profToRender, loggedInUser, profile}) {
@@ -15,7 +15,6 @@ function OurProfilePage ({profToRender, loggedInUser, profile}) {
   const [providerState, setProviderState] = useState()
   const [contractAddressState, setContractAddressState] = useState()
   const [signerState, setSignerState] = useState()
-  //contractAddressState && providerState && signerState ? 
 
   let contractAddress
   let provider
@@ -78,7 +77,7 @@ function OurProfilePage ({profToRender, loggedInUser, profile}) {
         </div>
           <div className={styles.profileBio}>
             <p className={styles.bolder}>{profToRender.email}</p>
-            <p>Bio: {profToRender.bio}</p>
+            <p>{profToRender.bio}</p>
           </div>
       </div>
       
@@ -86,10 +85,8 @@ function OurProfilePage ({profToRender, loggedInUser, profile}) {
         <hr></hr>
           <div className={styles.galleryMenu}>
             <h4>Posts</h4>
-            {/*⚠️ Placeholder for collections */}
-            <h4> Collections</h4>
           </div>
-          {
+          {/* {
             contractState && contractAddressState && providerState && signerState ? 
               <MintNFT 
               contract={contractState} 
@@ -100,7 +97,7 @@ function OurProfilePage ({profToRender, loggedInUser, profile}) {
             :
 
             <hi>no props</hi>
-          }
+          } */}
 
           <div className={styles.posts}>
             {profToRender.posts?.map(post => (
@@ -109,12 +106,18 @@ function OurProfilePage ({profToRender, loggedInUser, profile}) {
                   src={post.images} 
                   alt="profile post"
                 />
-                {
-                  contractState && contractAddressState && providerState && signerState ? 
-                  <h1>NFT Mapped</h1>
-                  :
-                  <hi>no props</hi>
-              }
+            {
+              contractState && contractAddressState && providerState && signerState ? 
+                <MintNFTMapped 
+                contract={contractState} 
+                contractAddress={contractAddressState} 
+                provider={providerState} 
+                signer={signerState} 
+                post={post}
+              />
+              :
+              <h1>no props</h1>
+            }
               </div>
             ))}
           </div>
