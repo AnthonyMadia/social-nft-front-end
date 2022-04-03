@@ -67,8 +67,6 @@ const Landing = ({ user, profile, returnedPost}) => {
         </div>
 
         :
-        // fix loading page with cool animation gif
-        // <span className={styles.loading}>Loading...</span>
 
         newsFeed == null || newsFeed?.length == 0 ?
 
