@@ -14,11 +14,9 @@ Deployed through Netlify
 Social NFT is an app where users can post images, turn them into a NFT, and share them with their followers. As a user you can also view, comment, and like other posts made be other users on the app.  
 
 Social NFT is a Instragram like app built using developed following a MERN stack. 
-Creating an account on the app allows a user to upload a image, utilizing the Metamask extension a user connects to their digital wallet to access the Ethereum or testnet blockchain.
+Creating an account on the app allows a user to upload an image to the Interplanetary File System (IPFS), receive a unique content identifier to our metadata using Moralis and mint that unique content identifier on the Goerli testnet.
 
-Lastly, all images are uploaded to the Interplanetary File System (IPFS) and the content identifier to our metadata is retrived using Moralis and used to mint on the Ethereum or testnet blockchain.
-
-Hardhat was used to test our smart contract writter in Solidity.
+Hardhat was used to test our smart contract writter in Solidity with Alchemy to connect to the Goerli testnet.
 
 ## Technologies Used
 
