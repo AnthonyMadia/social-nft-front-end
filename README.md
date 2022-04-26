@@ -3,9 +3,9 @@
 Deployed through Netlify 
 [https://social-nft.netlify.app/login]
 
-[Backend Repo] (https://github.com/mattjacobs93/social-nft-back-end) 
-[Smart Contract Repo] (https://github.com/mattjacobs93/nft-social-hardhat)
-<!-- we can add images of some pages here -->
+(Backend Repo)[https://github.com/mattjacobs93/social-nft-back-end]
+(Smart Contract Repo)[https://github.com/mattjacobs93/nft-social-hardhat]
+
 
 ### *Matt Jacobs, Anthony Madia, Eugene Rillo* <br>
 <hr/>
@@ -17,6 +17,7 @@ Social NFT is a Instragram like app built using developed following a MERN stack
 Creating an account on the app allows a user to upload an image to the Interplanetary File System (IPFS), receive a unique content identifier to our metadata using Moralis and mint that unique content identifier on the Goerli testnet.
 
 Hardhat was used to test our smart contract writter in Solidity with Alchemy to connect to the Goerli testnet.
+![Screen Shot 2022-04-26 at 7 40 53 PM](https://user-images.githubusercontent.com/78113974/165410112-52862939-3cb2-46c0-9066-a7d980bd4b94.png)
 
 ## Technologies Used
 
