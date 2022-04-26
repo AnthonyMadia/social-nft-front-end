@@ -34,7 +34,7 @@ MetaMask, IPFS, Hardhat, waffle.js, ether.js, Alchemy
 
 
 ## Planning 
-(Planning through Trello)[https://trello.com/b/L1sQkJEi/social-nft]
+[Planning through Trello](https://trello.com/b/L1sQkJEi/social-nft)
 
 ## Credits
 
