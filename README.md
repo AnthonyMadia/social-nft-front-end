@@ -1,10 +1,9 @@
 # ***Social NFT*** 
 
-Deployed through Netlify 
-[https://social-nft.netlify.app/login]
+[SocialNFT Deployment Link](https://social-nft.netlify.app/login)
 
-(Backend Repo)[https://github.com/mattjacobs93/social-nft-back-end]
-(Smart Contract Repo)[https://github.com/mattjacobs93/nft-social-hardhat]
+[Backend Repo](https://github.com/mattjacobs93/social-nft-back-end)
+[Smart Contract Repo](https://github.com/mattjacobs93/nft-social-hardhat)
 
 
 ### *Matt Jacobs, Anthony Madia, Eugene Rillo* <br>
@@ -39,15 +38,13 @@ MetaMask, IPFS, Hardhat, waffle.js, ether.js, Alchemy
 
 ## Credits
 
-(noprofilepic.jpg)[https://www.instagram.com/]<br>
+[Navbar Icons from fontawesome](https://fontawesome.com/)
 
-(Navbar Icons from fontawesome)[https://fontawesome.com/]
+[Cloudinary](https://cloudinary.com/)
 
-(Cloudinary)[https://cloudinary.com/]
+[Build a WEB3 app to mint unlimited NFTs… But should you?](https://www.youtube.com/watch?v=meTpMP0J5E8)<br>
 
-(Build a WEB3 app to mint unlimited NFTs… But should you?)[https://www.youtube.com/watch?v=meTpMP0J5E8]<br>
-
-(How to create a Modal Component in React from basic to advanced?)[https://medium.com/tinyso/how-to-create-a-modal-component-in-react-from-basic-to-advanced-a3357a2a716a]
+[How to create a Modal Component in React from basic to advanced?](https://medium.com/tinyso/how-to-create-a-modal-component-in-react-from-basic-to-advanced-a3357a2a716a)
 
 ## Ice Box / Stretch Goals
 
